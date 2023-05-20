@@ -24,9 +24,11 @@ python main_nonddp.py \
 --num-sampled-images 50000 --pretrained-ckpt 
 ```
 
+```
 python main_nonddp.py \
 --arch UNet --dataset cars --class-cond --sampling-only --sampling-steps 250 \
 --num-sampled-images 50000 --pretrained-ckpt /mntnfs/apmath_data1/UNet_cars-epoch_500-timesteps_1000-class_condn_True_ema_0.9995.pt
+```
 
 Adversarial training through ./adversarial_robustness_pytorch-main
 
