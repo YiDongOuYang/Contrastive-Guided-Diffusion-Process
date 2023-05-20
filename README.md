@@ -1,6 +1,6 @@
 # Contrastive-Guided-Diffusion-Process
 
-This repo contains the pytorch code for experiments in the paper Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process
+This repo contains the pytorch code for experiments in the paper [Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process](https://arxiv.org/abs/2210.09643)
 
 by Yidong Ouyang, Liyan Xie, Guang Cheng.
 
@@ -18,11 +18,11 @@ python main.py --config {DATASET}.yml --exp {PROJECT_PATH} --doc {MODEL_NAME} --
 ```
 Training Contrastive-DP for MNIST/GTSRB and sampling data through ./minimal-diffusion-main
 
-'''
+```
 python main_nonddp.py \
 --arch UNet --dataset cars --class-cond --sampling-only --sampling-steps 250 \
 --num-sampled-images 50000 --pretrained-ckpt 
-'''
+```
 
 python main_nonddp.py \
 --arch UNet --dataset cars --class-cond --sampling-only --sampling-steps 250 \
