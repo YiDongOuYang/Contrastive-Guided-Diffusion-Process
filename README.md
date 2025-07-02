@@ -1,4 +1,4 @@
-# Contrastive-Guided-Diffusion-Process
+# [ICML 2023] Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process
 
 This repo contains the pytorch code for experiments in the paper [Improving Adversarial Robustness Through the Contrastive-Guided Diffusion Process](https://arxiv.org/abs/2210.09643)
 
